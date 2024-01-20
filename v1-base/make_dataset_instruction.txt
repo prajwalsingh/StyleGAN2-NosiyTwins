@@ -1,0 +1,2 @@
+python make_json_label.py --input_folder=../dataset/mnist10/train/ --output_folder=../dataset/mnist10/train/
+python dataset_tool.py --source=/tmp/ffhq-unpacked --dest=~/datasets/ffhq256x256.zip --width=256 --height=256

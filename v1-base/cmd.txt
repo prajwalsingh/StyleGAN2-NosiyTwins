@@ -1,0 +1,12 @@
+python train.py --outdir=./out/ --data=../dataset/imagenet100.zip --cond=1 --gpus=3 --cfg=cifar --mirror=1 --augpipe=bgcfnc
+
+python train.py --outdir=./out/ --data=../dataset/mnist10.zip --cond=1 --gpus=2 --cfg=cifar --mirror=1 --augpipe=bgc
+
+python train.py --outdir=./out/ --data=../dataset/imagenet100_sdv2.zip --cond=1 --gpus=2 --cfg=cifar --mirror=1 --augpipe=bgc
+
+python train.py --outdir=./out/ --data=../dataset/dogs.zip --gpus=2 --cfg=stylegan2 --aug=ada --augpipe=bgc
+
+python train.py --outdir=./out/ --data=../dataset/ImageNet_Carnivores_20_100.zip --gpus=2 --cfg=stylegan2_carniv --aug=ada --augpipe=bgc --cond=1 --num_classes=20 --batch=128 --mirror=1
+
+python train.py --outdir=./out/ --data=../dataset/imagenet40.zip --gpus=2 --cfg=stylegan2_imagenet --aug=ada --augpipe=bgc --cond=1 --num_classes=40 --batch=128
+

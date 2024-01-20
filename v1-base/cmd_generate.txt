@@ -1,0 +1,3 @@
+python generate.py --network out/00005-imagenet100-cond-mirror-cifar-bgc/network-snapshot-019434.pkl --outdir=generated_images --seeds=0-13 --all_class=100
+
+python generate.py --network out/00003-ImageNet_Carnivores_20_100-cond-mirror-stylegan2_carniv-batch128-ada-bgc/network-snapshot-005529.pkl --outdir=generated_images --seeds=0-13 --all_class=20

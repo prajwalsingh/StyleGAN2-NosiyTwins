@@ -1,0 +1,1 @@
+python latent_space.py --network out/00003-ImageNet_Carnivores_20_100-cond-mirror-stylegan2_carniv-batch128-ada-bgc/network-snapshot-005529.pkl --outdir=generated_images --seeds=0-3 --all_class=8 --batch_size=64
